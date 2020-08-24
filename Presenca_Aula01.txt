@@ -1,0 +1,20 @@
+1)
+ a)git init: cria um novo repositório git.
+
+ b)git clone: clona um repositório git existente, baixando-o para a máquina local.
+
+ c)git branch: lista todas as branches do repositório.
+
+ d)git checkout: permite navegar entre as branches já existentes ou criar novas.
+
+ e)git fetch:trás o histórico de mudanças que está no repositório remoto para o repositório local. Isso não afeta os arquivos do repositório local
+
+ f)git pull: pode ter 2 ações: 1)trás o histórico de alterações do repositório remoto para o local sem afetar os arquivos; 2)as alterações feitas no repositório remoto são implementadas no diretório de trabalho, alterando assim o diretório de trabalho.
+
+ g)git add: adicionar um arquivo que esta na "working directory" na "staging area".
+
+ h)git commit: encaminha as alterações que estão na "staging area" para o repositório local.
+
+ i)git push: encaminha as alterações que estão no repositório local para o repositório remoto.
+
+2)O comando git pull trás as alterações que estão no repositório remoto para o diretório de trabalho, alterando assim o diretório. Já o git fetch trás apenas o histórico de alterações, sem alterar os arquivos.
